@@ -285,8 +285,6 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Initialize Groq
-from dotenv import load_dotenv
-load_dotenv()
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 # Session state
 if "saved_summary" not in st.session_state:
