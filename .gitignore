@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-.DS_Store
-study_buddy_data.json
-.env
-venv/
-env/

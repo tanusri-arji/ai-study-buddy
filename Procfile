@@ -1,1 +1,0 @@
-web: streamlit run study_buddy.py --logger.level=error --client.showErrorDetails=false

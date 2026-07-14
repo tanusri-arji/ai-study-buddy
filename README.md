@@ -1,11 +1,13 @@
-# 📚 AI Study Buddy
-# 🚀 Live App
-
-[Click here to use AI Study Buddy!](https://ai-study-buddy-bokfy8gcjivenwwsl2aw3n.streamlit.app)
-
-**No installation needed - just click and use!** 🎉
-
-AI-powered learning assistant built with Streamlit and Groq API.
+---
+title: AI Study Buddy
+emoji: 📚
+colorFrom: purple
+colorTo: blue
+sdk: streamlit
+sdk_version: "1.28.0"
+app_file: app.py
+pinned: false
+---
 
 ## Features
 - 🔍 Explain Complex Topics
@@ -23,7 +25,7 @@ pip install -r requirements.txt
 
 ### Run
 ```bash
-streamlit run study_buddy.py
+streamlit run app.py
 ```
 
 Visit http://localhost:8501

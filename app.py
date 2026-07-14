@@ -285,7 +285,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Initialize Groq
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+groq_api_key = os.environ.get("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY", None)
+if not groq_api_key:
+    st.error("⚠️ GROQ_API_KEY is not set. Add it as a Secret in your Space settings.")
+    st.stop()
+client = Groq(api_key=groq_api_key)
 # Session state
 if "saved_summary" not in st.session_state:
     st.session_state.saved_summary = None
