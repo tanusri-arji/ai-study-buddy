@@ -8,7 +8,9 @@ sdk_version: "1.28.0"
 app_file: app.py
 pinned: false
 ---
+# 📚 AI Study Buddy
 
+[![Live Demo](https://img.shields.io/badge/Demo-Live_App-blueviolet?style=for-the-badge)](https://ai-study-buddy-xytu.onrender.com)
 ## Features
 - 🔍 Explain Complex Topics
 - 📝 Summarize Study Notes
